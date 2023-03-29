@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import "normalize.css";
+
+/*code below creates the grid and moves everything closer together, changes font*/
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.code{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: -550px;
+}
+
+.content{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+/*code below sets up the first screen size and creates the border, changes the background, and modifies the text color, and alignment */
+@media screen and (min-width: 1200px){
+    .content{
+        background-repeat: no-repeat;
+        background-image: url("images/editwar.jpg");
+        background-size:cover;
+        color: white;
+       }
+       .rebel{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 10px;
+       }
+       .gold{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+       .war{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+       .escape{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+       .planet{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+       .bonus{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }   
+}
+/*code below sets up the second screen size and creates the border, changes the background, and modifies the text color, and alignment */
+@media screen and (max-width: 1200px){
+    .content{
+        background-repeat: no-repeat;
+        background-image: url("images/editfall.jpg");
+        background-size:cover;
+        color: white;
+       }
+    .quintesson{
+        content: url("images/editmegatron.png");
+    }
+    .rebel{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 10px;
+       }
+       .gold{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+       .war{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+       .escape{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+       .planet{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+       .bonus{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+}
+/*code below sets up the third screen size and creates the border, changes the background, and modifies the text color, and alignment */
+@media screen and (max-width: 800px){
+    .image{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .content{
+        background-repeat: no-repeat;
+        background-image: url("orginal/space.png");
+        background-size:cover;
+        color: white;
+       }
+       .rebel{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 10px;
+       }
+       .gold{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+       .war{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+       .escape{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+       .planet{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+       }
+       .bonus{
+        border-style: solid;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+        text-align: auto;
+       }
+}
